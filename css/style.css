@@ -38,7 +38,7 @@ header {
 /*CHILD NAV BAR*/
 /* logo */
 .logo {
-    width: 15%;
+   width: 15%;
    display: flex;
    justify-content: center;
 }
@@ -89,7 +89,6 @@ a {
 .section-large {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    min-height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,8 +107,7 @@ a {
 
 /* section-large-g */
 .section-large-g {
-    /*debug*/
-    height: 200px;
+   
     background-color:rgb(211 211 211) ;
     display: flex;
     justify-content: center;
@@ -225,8 +223,6 @@ a {
 /*FOOTER SECTION*/
 /* section-footer-top */
 .section-footer-top {
-    /*debug*/
-    height: 200px;
     background-color: rgb(35 39 42);
     border-bottom: 1px solid rgb(211 211 211);
     display: flex;
@@ -245,41 +241,88 @@ a {
 /*FOOTER CHILD SECTION*/
 
 .child-pink {
-    width: 25%;
-    /*debug*/
-    height: 170px;
-    background-color:rgb(240 128 128) ;
+    width: 30%;
+    
+    
+}
+
+/* footer-title */
+.footer-text-color {
+    color:rgb(114 137 218) ;
+    
+}
+
+.ita-img-cont {
+    display: flex;
+    width: 15%;
+    margin-top: 5px;
+    
+
+}
+
+.ita-l-title{
+    font-size:0.7rem ;
+    color: white;
+    margin-left: 3px;
     
 }
 
 .child-lightblue {
-    width: 15%;
-    /*debug*/
-    height: 170px;
-    background-color: rgb(32 178 170);
-    border-right: 1px dashed white ;
+    width: 20%;
+    
+   
 }
+
+.icons-footer{
+    display: flex;
+    gap: 7px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 0.7rem;
+    padding-top: 10px;
+}
+
+.ul-footer .li-footer {
+    display: flex;
+    
+    
+
+}
+.li-footer  {
+    font-size:0.5rem ;
+    color: white;
+    margin-top: 5px;
+    
+    
+    
+    
+} 
+
 /*FOOTER CHILD SECTION BOTTOM*/
 
 .container-child-lastgrey {
     width: 70%;
-    /*debug*/
-    height: 40px;
-    background-color: rgb(127 255 212);
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.last-pink-child-left {
+
+
+.last-link-child-right {
     
-    background-color:rgb(255 182 193) ;
+   background-color:rgb(114 137 218) ;
+   margin-bottom: 5px;
+   padding: 5px;
+   border-radius: 30px;
+
 }
 
-.last-pink-child-right {
-    
-    background-color:rgb(255 182 193) ; 
+.footer-logo {
+    max-width: 80%;
 }
 
 
