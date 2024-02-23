@@ -116,8 +116,7 @@ a {
 
 /* section-large-grey-green  */
 .section-large-grey-green {
-     /*debug*/
-     /* height: 400px; */
+     
      background-color:rgb(211 211 211) ;
      display: flex;
      justify-content: center;
@@ -128,7 +127,7 @@ a {
 /* large-child */
 .large-child {
     width: 70%;
-    /*debug*/
+   
     text-align: center;
     padding: 60px;
     
@@ -179,7 +178,7 @@ a {
 
 .child-left {
     width:60% ;
-    /*debug*/
+    
     
    
 }
@@ -323,6 +322,7 @@ a {
 
 .footer-logo {
     max-width: 80%;
+    
 }
 
 
