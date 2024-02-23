@@ -80,8 +80,8 @@ a {
     background-color: white;
     color: black;
     font-size: 0.7rem;
-    padding: 5px;
-    border-radius: 10px;
+    padding: 8px;
+    border-radius: 30px;
 }
 
 
@@ -93,6 +93,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
+    
 }
 
 /* section-large-w */
@@ -127,9 +129,11 @@ a {
 /*SECTION CHILD SELECTOR*/
 /* large-child */
 .large-child {
-    width: 50%;
+    width: 70%;
     /*debug*/
     text-align: center;
+    padding: 60px;
+    
 }
 
 /*title-large-child*/
@@ -192,10 +196,30 @@ a {
 /*child-gren*/
 .container-child-green {
     width: 70%;
-    background-color:rgb(34 139 34) ;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    
    
+}
+
+.container-child-green-background {
+    width: 100%;
+    min-height: 50px;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-size: 70%;
+    padding: 30px;
+    
+}
+
+.white-link {
+    background-color: rgb(114 137 218);
+    color: white;
+    
+    
 }
 
 /*FOOTER SECTION*/
