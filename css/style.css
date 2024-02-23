@@ -75,6 +75,7 @@ a {
     text-align: center;
 }
 
+/* login */
 .login {
     background-color: white;
     color: black;
@@ -96,7 +97,6 @@ a {
 
 /* section-large-w */
 .section-large-w {
-   
     background-color: white;
     display: flex;
     justify-content: center;
@@ -171,6 +171,7 @@ a {
     width: 70%;
     display: flex;
     align-items: center;
+    padding: 20px;
     
 }
 
