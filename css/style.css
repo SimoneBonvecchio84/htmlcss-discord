@@ -13,7 +13,7 @@ body {
 
 /*container-large*/
 .container-large {
-    width: 800px;
+    width: 80%;
     margin: auto;
 }
 
@@ -66,6 +66,7 @@ a {
     font-size: 0.6rem;
     color: white;
     padding: 8px;
+    display: inline-block;
 }
 
 /*nav-login*/
@@ -147,6 +148,7 @@ a {
 .par-text-child {
     font-size:0.8rem ;
     padding-top: 10px;
+    
 }
 
 /* download-mac */
@@ -175,16 +177,13 @@ a {
 
 .child-left {
     width:60% ;
-    
-    
-   
+       
 }
 
 .child-right {
     width: 40%;
     text-align: left;
-    
-    
+        
 }
 
 /*child-gren*/
@@ -194,8 +193,7 @@ a {
     margin-bottom: 20px;
     text-align: center;
     padding-bottom: 40px;
-    
-   
+       
 }
 
 .container-child-green-background {
@@ -205,15 +203,13 @@ a {
     background-size: cover;
     background-repeat: no-repeat ;
     background-size: 70%;
-    padding: 30px;
-    
+    padding: 30px;    
 }
 
 .white-link {
     background-color: rgb(114 137 218);
     color: white;
-    
-    
+        
 }
 
 /*FOOTER SECTION*/
@@ -237,36 +233,28 @@ a {
 /*FOOTER CHILD SECTION*/
 
 .child-pink {
-    width: 30%;
-    
-    
+    width: 30%;        
 }
 
 /* footer-title */
 .footer-text-color {
-    color:rgb(114 137 218) ;
-    
+    color:rgb(114 137 218) ;    
 }
 
 .ita-img-cont {
     display: flex;
     width: 15%;
     margin-top: 5px;
-    
-
 }
 
 .ita-l-title{
     font-size:0.7rem ;
     color: white;
-    margin-left: 3px;
-    
+    margin-left: 3px;    
 }
 
 .child-lightblue {
-    width: 20%;
-    
-   
+    width: 20%;   
 }
 
 .icons-footer{
@@ -282,18 +270,13 @@ a {
 
 .ul-footer .li-footer {
     display: flex;
-    
-    
-
 }
+
 .li-footer  {
     font-size:0.5rem ;
     color: white;
     margin-top: 5px;
-    
-    
-    
-    
+        
 } 
 
 .a-footer {
